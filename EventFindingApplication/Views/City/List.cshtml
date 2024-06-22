@@ -1,0 +1,16 @@
+﻿@model IEnumerable<EventFindingApplication.Models.CityDto>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List Cities</h2>
+
+<div class="cities">
+    @foreach (var City in Model)
+    {
+        <div>
+            <a href="Details/@City.CityId"> @City.CityName</a>
+        </div>
+    }
+</div>
+<img src="~/Content/Images/Toronto.png" class="toronto" />

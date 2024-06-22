@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">Finding Event App</h1>
+        <p class="lead">Welcome to Finding Event App! You're new favourite app to look for new events nearby.</p>
+    </section>
+
+    <div class="row">
+        <section class="col-md-6" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">Events in all cities in Toronto</h2>
+            <p>
+                Users can see all events taken places in each city from Toronto. They can also add and update new events. Create your own event now!
+            </p>
+            <p><a class="btn" href="https://localhost:44340/City/List">By Cities</a></p>
+        </section>
+        <section class="col-md-6" aria-labelledby="librariesTitle">
+            <h2 id="librariesTitle">Find all the events available!</h2>
+            <p>Discover new events without worrying too much about the location. Who knows? Maybe it can take you to places you have never visited before!</p>
+            <p><a class="btn btn-outline-dark" href="https://localhost:44340/Event/List">By Events</a></p>
+        </section>
+    </div>
+</main>
